@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            background-color: black;
+            color:cyan;
+        }
+        header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo  {
+           padding:40px 40px;
+           font-size:25px;
+           color:cyan;
+           text-transform: capitalize;
+           
+        }
+        nav a{
+            padding:30px;
+            color:cyan;
+            text-decoration: none;
+            text-transform: capitalize;
+            
+        }
+         nav a:hover{
+            color:greenyellow;
+            text-transform: uppercase;
+            text-shadow:0 0 5px greenyellow,
+            0 0 10px greenyellow,
+            0 0 20px greenyellow,
+            0 0 30px greenyellow;
+        }
+        section{
+            display:grid;
+            grid-template-areas:
+            "address form";
+            grid-template-rows:1pr 1pr;
+            margin:60px 40px;
+
+        }
+        address p{
+            color:yellow;
+            padding:5px;
+           
+        }
+          input[type="email"]{
+            padding:10px;
+            background-color: rgba(255, 255, 255, 0.822);
+            border-radius:5px;
+            color:black;
+         }
+          input[type="text"]{
+            padding:8px;
+            background-color: rgba(255, 255, 255, 0.774);
+            border-radius:5px;
+            color:black;
+         }
+         .form fieldset{
+            padding:30px;
+            
+         }
+         button{
+            background-color: aqua;
+            height:30px;
+            width:60px;
+            border-radius: 10px;
+            color:black;
+         }
+         footer{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+         }
+         footer p{
+            padding-top:30px;
+            color:rgb(212, 183, 129);
+         }
+    </style>
+</head>
+<body>
+    <header>
+     <div class="logo">
+        
+        <h2 >☕coffee</h2>
+     </div>
+     <nav>
+        
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            
+            <a href="gallery.html">gallery</a>
+            <a href="#">contact</a>
+        
+     </nav>
+    </header>
+    <section>
+        <div class="address">
+            <address>
+                <p><i class="fas fa-location-dot"></i> 123 Campsite Avenue,Wilderness,CA 98765</p>
+                <p><i class="fas fa-envelope"></i> info@coffeeshopwebsite.com</p>
+                <p><i class="fas fa-phone"></i> (123) 456-78909</p>
+                <p><i class="far fa-clock"></i> Monday-Friday:9:00AM-5:00PM</p>
+                <p><i class="fas fa-globe"></i>  Saturday:10:00AM-3:00PM</p>
+                <p><i class="fa-solid fa-xmark"></i>  Sunday:closed</p>
+                <p>www.codingnepalweb.com</p>
+            </address>
+        </div>
+        <div class="form">
+            <fieldset>
+                <legend style="color:orange;">customer info</legend>
+            <input type="text" placeholder="your Name" class="name "><br><br>
+            <input type="email" placeholder="your Email" class="mail"><br><br>
+            <input type="text" placeholder="your message"class="msg"><br><br>
+            <button>submit</button>
+            </fieldset>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;2024 CoffeeShop</p>
+        <p>Privacy policy . Refund policy</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            background-color: black;
+            color:cyan;
+        }
+        header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo  {
+           padding:40px 40px;
+           font-size:25px;
+           color:cyan;
+           text-transform: capitalize;
+           
+        }
+        nav a{
+            padding:30px;
+            color:cyan;
+            text-decoration: none;
+            text-transform: capitalize;
+            
+        }
+         nav a:hover{
+            color:greenyellow;
+            text-transform: uppercase;
+            text-shadow:0 0 5px greenyellow,
+            0 0 10px greenyellow,
+            0 0 20px greenyellow,
+            0 0 30px greenyellow;
+        }
+        section{
+            display:grid;
+            grid-template-areas: 
+            "image1 image3 image5"
+            "image7 image9 image2"
+            "image4 image6 image8";
+            grid-template-rows:1pr 1pr 1pr ;
+           margin:80px 100px;
+          
+        }
+        .image1 img{
+            width:300px;
+            height:200px;
+            object-fit: cover;
+            padding-bottom:40px;
+        }
+         .image2 img{
+            width:300px;
+            height:200px;
+            object-fit: cover;
+            padding-bottom:40px;
+        }
+         .image3 img{
+            width:300px;
+            height:200px;
+            object-fit:cover ;
+            padding-bottom:40px;
+        }
+         .image4 img{
+            width:300px;
+            height:200px;
+            object-fit: cover;
+            padding-bottom:40px;
+        }
+         .image5 img{
+            width:300px;
+            height:200px;
+            object-fit:cover;
+            padding-bottom:40px;
+        }
+         .image6 img{
+            width:300px;
+            height:200px;
+            object-fit:cover;
+            padding-bottom:40px;
+        }
+         .image7 img{
+            width:300px;
+            height:200px;
+            object-fit:cover;
+        }
+         .image8 img{
+            width:300px;
+            height:200px;
+            object-fit: cover;
+            padding-bottom:40px;
+        }
+         .image9 img{
+            width:200px;
+            height:200px;
+            object-fit:cover;
+            padding-bottom:40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <div class="logo">
+        
+        <h2 >☕coffee</h2>
+     </div>
+     <nav>
+        
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            
+            <a href="#">gallery</a>
+            <a href="contact.html">contact</a>
+        
+     </nav>
+    </header>
+    <center>
+    <h1 style="color:yellow;">Gallery</h1>
+    </center>
+    <section>
+    <div class="image1">
+        <img src="i7.jpg">
+    </div>
+    <div class="image1">
+        <img src="i8.jpg">
+    </div>
+    <div class="image1">
+        <img src="i9.jpg">
+    </div>
+    <div class="image1">
+        <img src="i10.jpg">
+    </div>
+    <div class="image1">
+        <img src="i11.jpg">
+    </div>
+    <div class="image1">
+        <img src="i12.jpg">
+    </div>
+    <div class="image1">
+        <img src="i13.jpg">
+    </div>
+    <div class="image1">
+        <img src="i14.jpg">
+    </div>
+    <div class="image1">
+        <img src="i15.jpg">
+    </div>
+    </section>
+</body>
+</html>

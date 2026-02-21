@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+
+    
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            background-color: black;
+            color:cyan;
+        }
+        header{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        .logo  {
+           padding:40px 40px;
+           font-size:25px;
+           color:cyan;
+           text-transform: capitalize;
+           
+        }
+        nav a{
+            padding:30px;
+            color:cyan;
+            text-decoration: none;
+            text-transform: capitalize;
+            
+        }
+         nav a:hover{
+            color:greenyellow;
+            text-transform: uppercase;
+            text-shadow:0 0 5px greenyellow,
+            0 0 10px greenyellow,
+            0 0 20px greenyellow,
+            0 0 30px greenyellow;
+        }
+        section{
+           padding-top:120px;
+        }
+        .text1 {
+            font-family:cursive;
+        
+            text-transform: capitalize;
+            text-indent: 4%;
+            color:rgb(247, 163, 7);
+
+        }
+        .text2{
+          color:rgb(111, 205, 205);
+          text-transform:capitalize;
+          font-family:sans-serif;
+          line-height: 3pc;
+          text-indent:4%;
+        }
+        .text3{
+          text-indent: 4%;
+          color:rgb(172, 231, 231);
+        }
+       .btn1{
+        position:absolute;
+        top:63%;
+        left:10%;
+        padding:6px 8px;
+        background: black;
+            color:cyan;
+            border:2px solid cyan;
+           transition: all 0.5s ease ;
+           border-radius: 10px;
+        }
+        .btn1:hover{
+            box-shadow:0 0 10px cyan,
+            0 0 20px cyan,
+            0 0 40px cyan;
+            background: linear-gradient(45deg,cyan,greenyellow);
+            color:black;
+        }
+
+        .btn2{
+        position:absolute;
+        top:63%;
+        left:20%;
+        padding:6px 8px;
+        background: black;
+            color:cyan;
+            border:2px solid cyan;
+           transition: all 0.5s ease ;
+           border-radius: 10px;
+        }
+        .btn2:hover{
+            box-shadow:0 0 10px cyan,
+            0 0 20px cyan,
+            0 0 40px cyan;
+             background: linear-gradient(45deg,cyan,greenyellow);
+            color:black;
+        }
+        .image img{
+            position:absolute;
+            left:68%;
+            bottom:28%;
+            height: 50%;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <header>
+     <div class="logo">
+        
+        <h2 >☕coffee</h2>
+     </div>
+     <nav>
+        
+            <a href="#">home</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+            
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        
+     </nav>
+    </header>
+    <section>
+      <h4 class="text1">best coffee</h4>
+      <h3 class="text2">make your day great with our special coffee!</h3>
+      <p class="text3">welcome to our coffee paradise,where every bean tells a story and every cup sparks joy</p>
+    <button class="btn1">order now</button>
+    <button class="btn2">contact us</button>
+    <div class="image">
+        <img src="4.png">
+    </div>
+    </section>
+</body>
+</html>

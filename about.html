@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+            background-color: black;
+            color:cyan;
+        }
+        header{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+         .logo  {
+           padding:40px 40px;
+           font-size:25px;
+           color:cyan;
+           text-transform: capitalize;
+           
+        }
+        nav a{
+            padding:30px;
+            color:cyan;
+            text-decoration: none;
+            text-transform: capitalize;
+            
+        }
+         nav a:hover{
+            color:greenyellow;
+            text-transform: uppercase;
+            text-shadow:0 0 5px greenyellow,
+            0 0 10px greenyellow,
+            0 0 20px greenyellow,
+            0 0 30px greenyellow;
+        }
+        section{
+           display:flex;
+           justify-content:space-between;
+           align-items: center;
+        }
+        .image img{
+            position:absolute;
+            top:40%;
+            left:10%;
+            border-radius: 100%;
+        }
+        .head {
+            position:absolute;
+            left:60%;
+            top:40%;
+            text-transform:uppercase;
+            color:rgb(255, 166, 0);
+            font-size:40px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+        }
+        .text{
+            position:absolute;
+            top:55%;
+            left:40%;
+            color:rgb(179, 222, 222);
+            font-size: 20px;
+            word-spacing: 3px;
+        }
+        .icons{
+            display:inline-flex;
+            justify-content: space-between;
+            
+            position:absolute;
+            top:72%;
+            left:62%;
+          
+        }
+        .icon1{
+            padding:0px 5px;
+            width:30px;
+            color:white;
+        }
+        .icon2{
+            padding:0px 5px;
+            width:30px;
+            color:white;
+
+        }
+        .icon3{
+            padding:0px 5px;
+            width:30px;
+            color:white;
+        }
+        .icon1:hover{
+            transform:scale(1.3);
+            color:#1877F2;
+            
+        }
+        .icon2:hover{
+            transform:scale(1.3);
+        }
+        .icon3:hover{
+            transform:scale(1.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+     <div class="logo">
+        
+        <h2 >☕coffee</h2>
+     </div>
+     <nav>
+        
+            <a href="home.html">home</a>
+            <a href="#">about</a>
+            <a href="menu.html">menu</a>
+           
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        
+     </nav>
+    </header>
+    <section>
+        <div class="image">
+        <img src="cof img.jpeg">
+        </div>
+        <div class="head">about us</div>
+      
+        <div class="text">At coffee housein Berndorf,germany,wepride ourselves on being a go-to destination for coffee lovers and conversation seekers alike.we're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere,where guests can relax,unwind ,and enjoy their time in comfort. </div>
+     <div class="icons">
+        <div class="icon1">
+        <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="icon2">
+      <i class="fa-brands fa-instagram"></i>
+      </div>
+      <div class="icon3">
+      <i class="fa-brands fa-twitter"></i>
+      </div>
+      </div>
+    </section>
+</body>
+</html>
